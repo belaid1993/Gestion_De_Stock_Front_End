@@ -6,6 +6,9 @@ import { PageLoginComponent } from './pages/page-login/page-login.component';
 import { PageInscriptionComponent } from './pages/page-inscription/page-inscription.component';
 import { PageDashboardComponent } from './pages/page-dashboard/page-dashboard.component';
 import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { PageStatistiquesComponent } from './pages/page-statistiques/page-statistiques.component';
+import { MenuComponent } from './composants/menu/menu.component';
 
 
 @NgModule({
@@ -13,11 +16,14 @@ import { RouterModule } from '@angular/router';
     AppComponent,
     PageLoginComponent,
     PageInscriptionComponent,
-    PageDashboardComponent
+    PageDashboardComponent,
+    PageStatistiquesComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
