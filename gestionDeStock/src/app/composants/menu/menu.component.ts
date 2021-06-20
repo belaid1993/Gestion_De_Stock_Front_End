@@ -40,7 +40,7 @@ export class MenuComponent implements OnInit {
           id: "21",
           title: "Articles",
           icon: "fas fa-boxes",
-          url: ""
+          url: "articles"
         },
         {
           id: "22",

@@ -11,4 +11,14 @@ body{
 .min-height-80{
   min-height: 80px;
 }
+.custom-border-right{
+  border-right: 2px solid darkgray !important;
+}
+.custom-border{
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+}
+.blue-color{
+  color: deepskyblue;
+}
 
