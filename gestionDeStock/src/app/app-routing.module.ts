@@ -5,6 +5,7 @@ import {PageInscriptionComponent} from "./pages/page-inscription/page-inscriptio
 import {PageDashboardComponent} from "./pages/page-dashboard/page-dashboard.component";
 import {PageStatistiquesComponent} from "./pages/page-statistiques/page-statistiques.component";
 import {PageArticleComponent} from "./pages/articles/page-article/page-article.component";
+import {NouvelArticleComponent} from "./pages/articles/nouvel-article/nouvel-article.component";
 
 const routes: Routes = [
   {path: 'login', component: PageLoginComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
     path: '', component: PageDashboardComponent,
     children: [
       {path: 'statistiques', component:PageStatistiquesComponent},
-      {path: 'articles', component:PageArticleComponent}
+      {path: 'articles', component:PageArticleComponent},
+      {path: 'nouvelarticle', component:NouvelArticleComponent}
     ]
   }
 ];
