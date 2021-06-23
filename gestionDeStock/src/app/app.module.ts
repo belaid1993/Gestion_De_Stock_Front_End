@@ -15,6 +15,9 @@ import { DetailArticleComponent } from './composants/detail-article/detail-artic
 import { PaginationComponent } from './composants/pagination/pagination.component';
 import { ButtonActionComponent } from './composants/button-action/button-action.component';
 import { NouvelArticleComponent } from './pages/articles/nouvel-article/nouvel-article.component';
+import { PageMvtstkComponent } from './pages/mvtstk/page-mvtstk/page-mvtstk.component';
+import { DetailMvtStkArticleComponent } from './composants/detail-mvt-stk-article/detail-mvt-stk-article.component';
+import { DetailMvtStkComponent } from './composants/detail-mvt-stk/detail-mvt-stk.component';
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import { NouvelArticleComponent } from './pages/articles/nouvel-article/nouvel-a
     DetailArticleComponent,
     PaginationComponent,
     ButtonActionComponent,
-    NouvelArticleComponent
+    NouvelArticleComponent,
+    PageMvtstkComponent,
+    DetailMvtStkArticleComponent,
+    DetailMvtStkComponent
   ],
   imports: [
     BrowserModule,
