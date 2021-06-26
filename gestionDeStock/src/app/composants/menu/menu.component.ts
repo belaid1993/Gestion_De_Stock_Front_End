@@ -61,13 +61,13 @@ export class MenuComponent implements OnInit {
           id: "31",
           title: "Clients",
           icon: "fas fa-users",
-          url: ""
+          url: "clients"
         },
         {
           id: "32",
           title: "Commandes Clients",
           icon: "fas fa-shopping-basket",
-          url: ""
+          url: "commandesclient"
         }
       ]
     },
@@ -81,13 +81,13 @@ export class MenuComponent implements OnInit {
           id: "41",
           title: "Fournisseur",
           icon: "fas fa-users",
-          url: ""
+          url: "fournisseurs"
         },
         {
           id: "42",
           title: "Commandes Fournisseurs",
           icon: "fas fa-truck",
-          url: ""
+          url: "commandesfournisseur"
         }
       ]
     },
